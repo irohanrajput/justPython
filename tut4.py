@@ -1,47 +1,27 @@
-#lists, tuples, and sets
-courses = ['history', 'physics', 'maths', 'english', 'chemistry']
+fruits =  ['apple', 'banana', 'litchi', 'mango']
+veg = ['peas', 'potato', 'ladyfinger']
 
+print (fruits ,"\n")
 
+fruits.append('peaches') #adds the item to the list in continuation
+print (fruits ,"\n")
 
-print (len(courses))
+fruits.insert(3, "strawberry") #inserts the item in the list to a fixed postion
+print (fruits, "\n")
 
-print (courses[-1]) #prints the last item of the index
+fruits.append(veg) #it adds the new list to the old list but not the items of the list
+print (fruits, "\n")
 
-print (courses[0])
+fruits.remove(veg)
+print (fruits, "\n")
 
-print (courses[0:]) #prints from the first item to the last item.. same rule as of in strings
+fruits.extend(veg)  #adds the items of the new list to the old list instead of adding the list itself 
+print (fruits, "\n") 
 
-print (courses[0:-1]) #prints everything excluding the last item
+#fruits.pop()  #this removes the last element of the list
 
-#learn slicing, link: tut4, 5:18 duration 
+fruits.reverse()   #reverse the order of the list
+print(fruits)
 
-#to add something to the list (in continuation )
-
-courses.append('adding new values')
-
-#insert an item to a fixed position
-#list.insert(desired position, 'value')
-
-courses.insert(3, "added at the 4th position") #*it starts from 0
-
-print (courses)
-
-
-courses_2 = ['new', 'list']
-
-courses.insert(2, courses_2)
-print (courses)
-['history', 'physics', ['new', 'list'], 'maths', 'english', 'chemistry']
-
-#but we want to add the items of the list, not the list itself
-print("\n\n\n")
-
-courses.extend(courses_2)
-print (courses)
-
-courses.remove(courses_2)
-courses.remove(courses_2)
-
-
-
-
+fruits.sort() #sorts in alphabetical order
+#now since the list is sorted in alphabetical order so just use >> fruits.reverse() to the the rest
