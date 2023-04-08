@@ -22,8 +22,9 @@ print ("the 5th character in the string is: ")
 print (message[5])
 print (message[0:5])  #prints all characters from 0 to 4 (exlcuding 5th)
 print (message[:5])   #does the same thing        
-print (message [6:])  #prints from 7th character to the last (excluding 6th)
+print (message [6:])  #prints from 6th character to the last 
 
+#note: in [a:b] everytime the last limit will be exluded but in [a:] last limit will be printed too
 print (message.upper())
 
 print (message.count("this"))   #print (message.count("arguement")) >> counts the no of times that patricular "arguement is used in the sting"
@@ -85,3 +86,4 @@ print (msg2)
 
 print(message.find("this"))
 
+print ("something again ", message[0])
