@@ -29,7 +29,8 @@ print (message.upper())
 print (message.count("this"))   #print (message.count("arguement")) >> counts the no of times that patricular "arguement is used in the sting"
 
 
-print (message.find("multiline"))  #prints the character the number from which the arguement "multiline" begins i.e. 10 here.
+print (message.find("multiline"))  #prints the character the number from which the arguement "multiline" begins i.e. 10 here..
+print ("whatever")
 
 
 # TO REPLACE A WORD IN A STRING 
@@ -81,3 +82,6 @@ print (msg2)
 # print (dir(name))
 # print (help(str))
 # print (help(str.lower))
+
+print(message.find("this"))
+
