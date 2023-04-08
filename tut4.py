@@ -24,4 +24,4 @@ fruits.reverse()   #reverse the order of the list
 print(fruits)
 
 fruits.sort() #sorts in alphabetical order
-#now since the list is sorted in alphabetical order so just use >> fruits.reverse() to the the rest
+#use fruits.sort(reverse) to sort in reverse order
