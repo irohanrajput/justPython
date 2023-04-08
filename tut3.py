@@ -16,7 +16,7 @@ print (3 // 2) #floor division (it eliminates the decimal value)
 print (7**2) #exponent
 print (7%3)  #to get the remainder
 
-print ("\n increament in values")
+print ("\n increament in values ")
 
 
 #python follows BODMAS
