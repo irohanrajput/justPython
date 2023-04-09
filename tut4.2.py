@@ -30,7 +30,7 @@ courses = ["maths", "english", "hindi"]
 
 #for item in list:
      #print (item)
-
+ 
 for item in courses:
     print (item)
 
@@ -50,4 +50,45 @@ string = "my name is Rohan Rajput"
 new_list = string.split(' ')
 print (new_list)
 
+#tuples are not mutable i.e. they does not support item assignment
+
+tuple_1 = ('history', 'math', 'physics', 'CompSci')
+tuple_2 = tuple_1
+print (tuple_1)
+print (tuple_2) 
+
+#tuple_1[0] = 'art'
+#print(tuple_1)    this will give an error as we can't modify the items in a tuple
+
+#use list when you want to modify something later and use tuple when u don't want the the items to be modified
+
+#sets don't really care about order, they throw away duplicates i.e. if the we put two same items in a set, it'll print only one and will throw away the other
+
+#sets do follow intersection, difference, union etx.
+
+cs_courses = {'History', 'Math', 'Physics', 'CompSci',}
+art_courses  = ['pol sci', 'history', "civics", 'CompSci']
+
+print ("the union of all subject is:", cs_courses.union(art_courses),"\n")
+print ( "the common subjects among the both lists are:", cs_courses.intersection(art_courses),"\n")
+print ( "the different subjects among the both lists are:",cs_courses.difference(art_courses),"\n")
+
+sub_union = cs_courses.union(art_courses)
+print ("total subjects available are:")
+for item3 in sub_union:
+    print (item3)     # *..*
+
+
+
+# Empty Lists
+empty_list = []
+empty_list = list()
+
+# Empty Tuples
+empty_tuple = ()
+empty_tuple = tuple()
+
+# Empty Sets
+empty_set = {} # This isn't right! It's a dictionary
+empty_set = set()
 
