@@ -30,6 +30,20 @@ student.update({'courses': 'computer science'}) #this will update the courses i.
 print (student)
 
 #to delete
+#while using pop in dictionary, minimum 1 arguement is required
+#del student ['age']
+# print (student)
+# popped = student.pop('name')
+# print (popped)
 
-del student ['age']
-print (student)
+print (len(student))
+print ("printing all the keys" , student.keys(), "\n", "and now printing all the values", student.values(), "and now printing the items in the dict student", student.items(), "\n")
+#here keys() and values() take no arguements
+
+#loop through them
+
+for index, something in enumerate(student, start= 1):
+    print (index, something)    #it will only print keys by this method 
+    print()
+for  key, value in student.items():
+    print (key, value)
