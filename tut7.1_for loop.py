@@ -21,4 +21,4 @@ for num1 in nums:
 
 for num in nums:
     for letter in 'abc':
-        print (num, letter) #every number in nums will loop through every letter in abc i.e. 1-a,b,c..2-a,b,c and so on
+        print (num, letter) #every number in nums will loop through every letter in abc i.e. 1-a,b,c..2-a,b,c and so on 
