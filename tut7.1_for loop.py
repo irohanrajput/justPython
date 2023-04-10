@@ -1,4 +1,4 @@
-#loops and iterations (for, while)
+#for loop
 
 nums = [1,3,2,4,7,5,6,8]
 nums.sort()
@@ -6,9 +6,9 @@ nums.sort()
 print("here the list is ", nums)
 
 for num in nums:
-    if num == 3:  
+    if num == 3:  #ek ek kar ke check krte hue 3 tak pohochega and then the process
         print("found the number 3 and breaking the loop no")
-        break  #prints everything before 3
+        break  
     print(num)
 
 print("\n")
@@ -21,4 +21,4 @@ for num1 in nums:
 
 for num in nums:
     for letter in 'abc':
-        print (num, letter) #every number in nums will loop through every letter in abc
+        print (num, letter) #every number in nums will loop through every letter in abc i.e. 1-a,b,c..2-a,b,c and so on
