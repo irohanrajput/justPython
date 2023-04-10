@@ -22,3 +22,11 @@ for num1 in nums:
 for num in nums:
     for letter in 'abc':
         print (num, letter) #every number in nums will loop through every letter in abc i.e. 1-a,b,c..2-a,b,c and so on 
+
+
+ran = range(10)
+for i in ran:
+   print (i) #range 10 denotes num from 0 to 9
+print("\n")
+for j in range(1,11):
+    print(j)
