@@ -1,8 +1,18 @@
-#while loop 
+x = 0 
+y = 0 #initializing with initial value = 0
 
-#ran = range(10)
-#for i in ran:
-#   print (i) #range 10 denotes num from 0 to 9
-#print("\n")
-#for j in range(1,11):
-#    print(j)
+while x < 10:
+    print (x,"keep it counting bruh")
+    x += 1
+
+while y < 10:  
+    if y == 5:
+        break
+    print (y,"keep it counting bruh")
+    y += 1
+
+while True:  
+    if y == 10265:
+        break  #to break the infinite loop
+    print (y,"printing the numbers from o to 10264")
+    y += 1
