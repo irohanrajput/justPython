@@ -40,7 +40,7 @@ for index, item2 in enumerate(courses, start = 1):  #if we want numbering too i.
 
     print(index, item2)
 
-#to separate each value of the list and put them as a string with commas b/w them
+#to separate each value of the list and put them as a string with " and " b/w them
 
 course_str = " and ".join(courses)
 print(course_str)
