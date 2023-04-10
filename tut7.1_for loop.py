@@ -15,8 +15,8 @@ print("\n")
 
 for num1 in nums:
     if num1 == 3:  
-        print("number 3 was found and it is now continuing ahead") # number 3 was found and it is now continuing ahead
-        continue #continue again from 3, it ignores 3 while printing
+        print("number 3 was found and it is now continuing ahead") 
+        continue 
     print(num1)
 
 for num in nums:
