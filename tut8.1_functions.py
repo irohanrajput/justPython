@@ -34,10 +34,17 @@ print(hello_funcn()) #here we didn't gave the input fot greeting and name so it 
 # for unknow things 
 # single star * represent a list, double star ** represents a dictionary
 
-def student_info(*args, **kwargs):
-    print(args)
-    print(kwargs)
-
-courses = ['math', ]
+def student_info(*args, **kwargs):  #args: arguenents, kwargs: keyword agruements
+    print('38.',args)
+    print('39.',kwargs)
 
 student_info ('math', 'art', name = 'john', age = 22)
+
+def student_info2(*args2, **kwargs2):
+    print("44.", args2)
+    print("45.", kwargs2)
+courses = ['math', 'english', 'hindi']
+info = {'Name': 'Rohan', 'age': '22'}
+
+student_info2(courses, info )  #this won't unpack these list and dictionary
+student_info2(*courses, **info )  #this will unpack these list and dictionar
