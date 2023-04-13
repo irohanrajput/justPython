@@ -1,2 +1,7 @@
-for(i = 0; i <=100, i++){
-    if (i % 2)
+def check(num):
+    if num % 2 == 0:
+        print ("even")
+    else:
+        print("odd")
+
+check (3)
